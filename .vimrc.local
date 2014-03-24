@@ -1,8 +1,2 @@
 set nocursorline
 let g:indent_guides_enable_on_vim_startup = 0
-
-" Auto reload config"
-augroup myvimrc
-    au!
-    au BufWritePost .vimrc,_vimrc,vimrc,.gvimrc,_gvimrc,gvimrc so $MYVIMRC | if has('gui_running') | so $MYGVIMRC | endif
-augroup END

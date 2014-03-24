@@ -1,3 +1,4 @@
 #!/bin/sh
-ln -s .vimrc.local ~/.vimrc.local
-ln -s .vimrc.bundles.local ~/.vimrc.bundles.local
+cd ~
+ln -f -s ~/my-vim/.vimrc.local
+ln -f -s ~/my-vim/.vimrc.bundles.local

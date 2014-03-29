@@ -2,3 +2,7 @@ set nocursorline
 let g:indent_guides_enable_on_vim_startup=0
 let g:conceallevel=0
 set whichwrap=b,s,<,>,[,]   " Backspace and cursor keys wrap too
+map <C-J> <C-W>j
+map <C-K> <C-W>k
+map <C-L> <C-W>l
+map <C-H> <C-W>h

@@ -1,10 +1,26 @@
-"Disable some spf13 bundles
+"--- Disable some spf13 bundles
+"
+"Use 'auto-pairs' instead
 UnBundle 'spf13/vim-autoclose'
 
-"Install my bundles
+"--- Install my bundles
+"Syntax highlight for typescript
 Bundle 'leafgarland/typescript-vim'
+
+"Useful helpers for xml, like renaming tags...
 Bundle 'othree/xml.vim'
+
+"Syntax highlight for Dockerfile
 Bundle 'ekalinin/Dockerfile.vim'
+
+"Toggle quickfix and location list
 Bundle 'Valloric/ListToggle'
+
+"Auto close pairs
 Bundle 'jiangmiao/auto-pairs'
+
+"Javascript semantic completion
 Bundle 'marijnh/tern_for_vim'
+
+"Move in camelcase and underscore identifiers
+Bundle 'vim-scripts/camelcasemotion'

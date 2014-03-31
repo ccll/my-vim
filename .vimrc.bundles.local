@@ -1,4 +1,0 @@
-Bundle 'leafgarland/typescript-vim'
-Bundle 'othree/xml.vim'
-Bundle 'ekalinin/Dockerfile.vim'
-Bundle 'Valloric/ListToggle'

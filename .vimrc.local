@@ -4,7 +4,7 @@ set nocursorline
 "Do not show indent guides
 let g:indent_guides_enable_on_vim_startup=0
 
-"Always show quotes in JSON files
+"Disable conceal
 let g:conceallevel=0
 
 "OVERRIDE - Do not wrap around when pressing 'h' and 'l'
@@ -18,3 +18,8 @@ map <C-H> <C-W>h
 
 "Disable python-mode completion, which conflicts with YouCompleteMe
 let g:pymode_rope_completion=0
+
+"YCM
+let g:ycm_confirm_extra_conf=0
+let g:ycm_always_populate_location_list=1
+let g:ycm_global_ycm_extra_conf='~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'

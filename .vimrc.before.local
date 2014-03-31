@@ -5,3 +5,6 @@ endif
 
 "Disable automatic view restroing
 let g:spf13_no_views = 1
+
+"Disable filetype before loading vundle packages
+filetype off

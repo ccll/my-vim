@@ -1,14 +1,3 @@
-"Disable some spf13 bundles
-UnBundle 'spf13/vim-autoclose'
-
-"Install my bundles
-Bundle 'leafgarland/typescript-vim'
-Bundle 'othree/xml.vim'
-Bundle 'ekalinin/Dockerfile.vim'
-Bundle 'Valloric/ListToggle'
-Bundle 'jiangmiao/auto-pairs'
-Bundle 'marijnh/tern_for_vim'
-
 "Do not highlight current line
 set nocursorline
 

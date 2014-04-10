@@ -32,3 +32,31 @@ let g:ycm_global_ycm_extra_conf='~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_
 autocmd BufRead,BufNewFile *.html,*.css,*.js,*.ts setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 autocmd BufEnter *.html,*.css,*.js,*.ts let g:indent_guides_guide_size = 2
 autocmd BufLeave *.html,*.css,*.js,*.ts let g:indent_guides_guide_size = 1
+
+"--- Tagbar
+
+"Less
+let g:tagbar_type_less = {
+    \ 'ctagstype' : 'less',
+    \ 'kinds'     : [
+        \ 'c:classes',
+        \ 't:tags',
+        \ 'i:identities',
+        \ 'm:medias'
+    \]
+\}
+
+"TypeScript
+let g:tagbar_type_typescript = {
+    \ 'ctagstype' : 'typescript',
+    \ 'kinds'     : [
+        \ 'c:classes',
+        \ 'm:modules',
+        \ 'f:functions',
+        \ 'v:variables',
+        \ 'V:varlambdas',
+        \ 'm:members',
+        \ 'i:interfaces',
+        \ 'e:enums'
+    \]
+\}

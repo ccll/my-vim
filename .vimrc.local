@@ -1,6 +1,9 @@
 "Do not highlight current line
 set nocursorline
 
+"Change background color of line number column
+highlight LineNr ctermfg=044
+
 "Do not show indent guides
 let g:indent_guides_start_level = 1
 let g:indent_guides_auto_colors = 0

@@ -24,3 +24,6 @@ Bundle 'marijnh/tern_for_vim'
 
 "Move in camelcase and underscore identifiers
 Bundle 'vim-scripts/camelcasemotion'
+
+"Undo tree
+Bundle 'mbbill/undotree'

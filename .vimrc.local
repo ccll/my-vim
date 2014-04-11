@@ -4,12 +4,14 @@ set nocursorline
 "Change background color of line number column
 highlight LineNr ctermfg=044
 
-"Do not show indent guides
+"Do not show indent guides at startup, we'll enable it for specific filetype
+let g:indent_guides_enable_on_vim_startup = 0
 let g:indent_guides_start_level = 2
 let g:indent_guides_auto_colors = 0
 let g:indent_guides_guide_size = 1
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  ctermbg=254
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=253
+autocmd BufEnter * :hi IndentGuidesEven ctermbg=253
 
 "Disable conceal for JSON
 autocmd FileType json setlocal conceallevel=0
@@ -33,8 +35,16 @@ let g:ycm_global_ycm_extra_conf='~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_
 
 "Indent 2 spaces in html/css/js/ts files
 autocmd BufRead,BufNewFile *.html,*.css,*.js,*.ts setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
-autocmd BufEnter *.html,*.css,*.js,*.ts let g:indent_guides_guide_size = 2
-autocmd BufLeave *.html,*.css,*.js,*.ts let g:indent_guides_guide_size = 1
+autocmd BufEnter *.html,*.css,*.js,*.ts call EnterHtmlFiles()
+autocmd BufLeave *.html,*.css,*.js,*.ts call LeaveHtmlFiles()
+function EnterHtmlFiles()
+    let g:indent_guides_guide_size = 2
+    :IndentGuidesEnable
+endfunction
+function LeaveHtmlFiles()
+    let g:indent_guides_guide_size = 1
+    :IndentGuidesDisable
+endfunction
 
 "--- Tagbar
 

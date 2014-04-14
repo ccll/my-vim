@@ -27,3 +27,6 @@ Bundle 'vim-scripts/camelcasemotion'
 
 "Undo tree
 Bundle 'mbbill/undotree'
+
+"Live edit for HTML/CSS/JS
+Bundle 'jaxbot/brolink.vim'

@@ -10,6 +10,9 @@ set nosplitbelow
 "Set color scheme
 colorscheme wombat256mod
 
+"Make double-<Esc> clear search highlights
+nnoremap <silent> <Esc><Esc> <Esc>:nohlsearch<CR><Esc>
+
 "Reload file on change
 set autoread
 augroup checktime

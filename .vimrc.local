@@ -4,6 +4,9 @@ set nocursorline
 "Disable spell checking
 set nospell
 
+"Split at top
+set nosplitbelow
+
 "Set color scheme
 colorscheme wombat256mod
 

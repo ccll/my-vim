@@ -48,6 +48,7 @@ let g:pymode_rope_completion=0
 let g:ycm_confirm_extra_conf=0
 let g:ycm_always_populate_location_list=1
 let g:ycm_global_ycm_extra_conf='~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
+nnoremap <leader>jj :YcmCompleter GoTo<cr>
 
 "Indent 2 spaces in html/css/js/ts files
 autocmd BufRead,BufNewFile *.html,*.css,*.js,*.ts setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2

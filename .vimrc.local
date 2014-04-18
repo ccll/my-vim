@@ -103,3 +103,7 @@ nmap <silent> <Leader>ok :FSAbove<cr>
 nmap <silent> <Leader>oK :FSSplitAbove<cr>
 nmap <silent> <Leader>oj :FSBelow<cr>
 nmap <silent> <Leader>oJ :FSSplitBelow<cr>
+
+"C++ styles
+set cinoptions=g0       "Align 'public:/...etc' with 'class'
+set cinoptions+=:0      "Align 'case' with 'switch'

@@ -3,6 +3,9 @@
 "Use 'auto-pairs' instead
 UnBundle 'spf13/vim-autoclose'
 
+"Auto close pairs
+Bundle 'jiangmiao/auto-pairs'
+
 "--- Install my bundles
 "Syntax highlight for typescript
 Bundle 'leafgarland/typescript-vim'
@@ -15,9 +18,6 @@ Bundle 'ekalinin/Dockerfile.vim'
 
 "Toggle quickfix and location list
 Bundle 'Valloric/ListToggle'
-
-"Auto close pairs
-Bundle 'jiangmiao/auto-pairs'
 
 "Javascript semantic completion
 Bundle 'marijnh/tern_for_vim'

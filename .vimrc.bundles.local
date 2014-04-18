@@ -33,3 +33,6 @@ Bundle 'jaxbot/brolink.vim'
 
 "Load vim script in local folder
 Bundle 'embear/vim-localvimrc'
+
+"Switch header and source file
+Bundle 'derekwyatt/vim-fswitch'

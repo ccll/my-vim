@@ -8,3 +8,7 @@ let g:spf13_no_views = 1
 
 "Disable filetype before loading vundle packages
 filetype off
+
+"spf13-vim is breaking the arrow key in insert mode, disable the omni function
+"for now
+let g:spf13_no_omni_complete = 1

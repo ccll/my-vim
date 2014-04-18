@@ -1,6 +1,12 @@
 "Do not highlight current line
 set nocursorline
 
+"Disable spell checking
+set nospell
+
+"Set color scheme
+colorscheme wombat256mod
+
 "Reload file on change
 set autoread
 augroup checktime

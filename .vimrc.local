@@ -94,7 +94,7 @@ let g:tagbar_type_typescript = {
 let g:localvimrc_ask=0
 
 "vim-fswitch
-nmap <silent> <Leader>of :FSHere<cr>
+nmap <silent> <Leader>oo :FSHere<cr>
 nmap <silent> <Leader>ol :FSRight<cr>
 nmap <silent> <Leader>oL :FSSplitRight<cr>
 nmap <silent> <Leader>oh :FSLeft<cr>

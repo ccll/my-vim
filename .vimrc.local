@@ -54,6 +54,7 @@ let g:pymode_rope_completion=0
 let g:ycm_confirm_extra_conf=0
 let g:ycm_always_populate_location_list=1
 let g:ycm_global_ycm_extra_conf='~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
+let g:ycm_key_invoke_completion = '<C-l>'
 nnoremap <leader>jj :YcmCompleter GoTo<cr>
 
 "Indent 2 spaces in html/css/js/ts files

@@ -89,3 +89,6 @@ let g:tagbar_type_typescript = {
         \ 'e:enums'
     \]
 \}
+
+"Do not ask when loading local .lvimrc
+let g:localvimrc_ask=0

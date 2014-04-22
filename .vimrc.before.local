@@ -3,7 +3,7 @@ if !exists('g:spf13_bundle_groups')
     let g:spf13_bundle_groups=['general', 'youcompleteme', 'programming', 'python', 'go', 'javascript', 'html', 'misc']
 endif
 
-"Disable automatic view restroing
+"Disable automatic view restoring
 let g:spf13_no_views = 1
 
 "Disable filetype before loading vundle packages

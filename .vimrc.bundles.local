@@ -30,3 +30,6 @@ Bundle 'mbbill/undotree'
 
 "Live edit for HTML/CSS/JS
 Bundle 'jaxbot/brolink.vim'
+
+"Load vim script in local folder
+Bundle 'embear/vim-localvimrc'

@@ -10,6 +10,9 @@ set nosplitbelow
 "Set color scheme
 colorscheme wombat256mod
 
+"Shortcut to build
+nnoremap <F8> :make<CR>
+
 "Make double-<Esc> clear search highlights
 nnoremap <silent> <Esc><Esc> <Esc>:nohlsearch<CR><Esc>
 
@@ -109,6 +112,7 @@ let g:tagbar_type_typescript = {
 
 "Do not ask when loading local .lvimrc
 let g:localvimrc_ask=0
+let g:localvimrc_sandbox = 0        "Do not run in sandbox
 
 "vim-fswitch
 nmap <silent> <Leader>oo :FSHere<cr>

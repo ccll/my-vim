@@ -1,3 +1,6 @@
+"Use zsh as shell
+set shell=/usr/bin/zsh
+
 "Do not highlight current line
 set nocursorline
 

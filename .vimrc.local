@@ -10,6 +10,9 @@ set nospell
 "Split at top
 set nosplitbelow
 
+"Make cmdheight higher
+set cmdheight=2
+
 "Set color scheme
 colorscheme wombat256mod
 

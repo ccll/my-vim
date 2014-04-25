@@ -134,3 +134,4 @@ nmap <silent> <Leader>oJ :FSSplitBelow<cr>
 "C++ styles
 set cinoptions=g0       "Align 'public:/...etc' with 'class'
 set cinoptions+=:0      "Align 'case' with 'switch'
+set cinoptions+=N-s     "Do not indent in namespace
